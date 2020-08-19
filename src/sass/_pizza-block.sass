@@ -1,0 +1,52 @@
+.pizza-block
+    width: 280px
+    text-align: center
+    margin-right: 3.7%
+    margin-bottom: 65px
+    &__title
+        margin: 0 0 22px
+        font-style: normal
+        font-weight: 800
+        font-size: 20px
+        line-height: 24px
+        letter-spacing: 0.01em
+        color: #000
+    &__selector
+        padding: 6px
+        margin-top: 22px
+        background: #F3F3F3
+        border-radius: 10px
+        ul
+            display: flex
+            justify-content: space-between
+            align-items: center
+            &:last-child
+                margin-top: 7px
+            li
+                cursor: pointer
+                flex: 1
+                padding: 8px
+                color: $black
+                font-weight: bold
+                font-size: 14px
+                line-height: 17px
+                letter-spacing: 0.015em
+                &.active
+                    cursor: default
+                    background: #fff
+                    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.04)
+                    border-radius: 5px
+                &.disabled
+                    opacity: 0.5
+                    pointer-events: none
+    &__bottom
+        margin-top: 24px
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &__price
+        font-weight: bold
+        font-size: 22px
+        line-height: 27px
+        letter-spacing: 0.015em
+        color: #000

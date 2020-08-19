@@ -1,0 +1,22 @@
+.categories
+    &__list
+        display: flex
+        &-item
+            margin-right: 9px
+            padding: 13px 30px
+            border-radius: 30px
+            background: $gray
+            font-weight: bold
+            letter-spacing: 0.015em
+            text-align: center
+            color: $black
+            cursor: pointer
+            &:hover
+                background-color: darken($gray, 2%)
+            &:active
+                background-color: darken($gray, 5%)
+            &.active
+                background-color: $black
+                color: #fff
+            span
+                color: inherit

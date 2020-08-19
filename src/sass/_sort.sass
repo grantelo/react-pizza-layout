@@ -1,0 +1,38 @@
+.sort
+    position: relative
+    &__label
+        font-size: 16px
+        letter-spacing: 0.015em
+        b
+            color: $black
+            font-weight: bold
+            margin-right: 8px
+        span
+            color: $orange
+            font-weight: normal
+            border-bottom: 1px dashed #FE5F1E
+        img
+            margin-right: 8px
+    &__popup
+        position: absolute
+        top: 30px
+        right: 0
+        padding: 13px 0
+        width: 160px
+        background: #FFFFFF
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09)
+        border-radius: 10px
+        cursor: pointer
+        li
+            padding: 12px 20px
+            font-size: 16px
+            font-weight: normal
+            line-height: 20px
+            letter-spacing: 0.015em
+            color: #000
+            &.active
+                background: rgba(254, 95, 30, 0.05)
+                color: $orange
+                font-weight: bold
+            &:hover
+                background-color: rgba(254, 95, 30, 0.05)
